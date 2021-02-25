@@ -1,0 +1,102 @@
+====== Options ======
+absolute_lambda: 0
+ae_bottleneck: 512
+atlas_decoder: None
+atlas_emd_regul: 0.0
+atlas_final_lambda: 0.0
+atlas_freeze_decoder: False
+atlas_freeze_encoder: False
+atlas_lambda: 0.0
+atlas_lambda_laplacian: 0.0
+atlas_lambda_regul_edges: 0.0
+atlas_loss: chamfer
+atlas_mesh: True
+atlas_mode: sphere
+atlas_points_nb: 642
+atlas_predict_scale: True
+atlas_predict_trans: True
+atlas_residual: False
+atlas_resume: None
+atlas_scale_weight: 0.0
+atlas_separate_encoder: False
+atlas_trans_weight: 0.0
+center_idx: 9
+collision_lambda: 0.0
+collision_mode: dist_tanh
+collision_thresh: 20.0
+contact_lambda: 0.0
+contact_mode: dist_tanh
+contact_target: all
+contact_thresh: 10.0
+contact_zones: zones
+controlled_exp: False
+controlled_size: 60000
+debug: False
+epoch_display_freq: 5
+epochs: 500
+evaluate: False
+exp_id: checkpoints2/train/fhbhands_hand_panoptic_stereohands_synthands_30_synthands_36_synthgrasps_33_tomasreal_zimsynth/manonet/2019_05_24_allhands_centeridx9_orthopredinit_scratch/__seed0_resnet18_lr_5e-05_mom0.9_bs32_dec0.5_step150__frzbatch_neur_512-256_mano_comps_30_lv1.000_lj1.000_lj2d1.000000_ls1.000_mode_all
+fc_dropout: 0
+fhbhands_filter_object: None
+fhbhands_split_choice: None
+fhbhands_split_type: subjects
+fhbhands_topology: None
+freeze_batchnorm: True
+freeze_encoder: False
+freeze_mano_decoder: False
+hidden_neurons: [512, 256]
+inject_hands: False
+lr: 5e-05
+lr_decay_gamma: 0.5
+lr_decay_step: 150
+mano_adapt_skeleton: False
+mano_comps: 30
+mano_lambda_joints2d: 1.0
+mano_lambda_joints3d: 1.0
+mano_lambda_pca: 0
+mano_lambda_pose_reg: 0
+mano_lambda_prior: False
+mano_lambda_shape: 1.0
+mano_lambda_verts: 1.0
+mano_use_pca: True
+mano_use_pose_prior: False
+mano_version: 1
+manual_seed: 0
+mini_factor: 0.0
+mode: all
+momentum: 0.9
+network: manonet
+no_pretrain: False
+no_simulate: False
+optimizer: adam
+override_scale: False
+pyapt_id: _0_69586
+refine: False
+regul_decay_gamma: 1
+regul_decay_step: 300
+render_lambda: 0.0
+resnet_version: 18
+resume: None
+right_only: False
+save_results: False
+sides: left
+snapshot: 100
+start_epoch: 0
+synthgrasp_class_ids: None
+synthgrasps_segment: False
+test_batch: 32
+test_display_freq: 100
+train_batch: 32
+train_datasets: ['panoptic', 'synthands_30', 'synthands_36', 'synthgrasps_33', 'fhbhands_hand', 'stereohands', 'zimsynth', 'tomasreal']
+train_display_freq: 500
+train_splits: ['train', 'train', 'train', 'train', 'train', 'train', 'train', 'train']
+use_shape: True
+val_datasets: ['panoptic']
+val_splits: ['test']
+weight_decay: 0
+workers: 8
+=====================
+launched scripts/handataset3d.py at 2019-05-24 17:43:15.655476
+=== Git info ====
+b'ea53983'
+commit : b'ea5398371de3ef1ebaa2257927210904f8f59266'

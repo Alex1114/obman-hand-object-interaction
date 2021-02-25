@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<launch>
+	<node pkg="obman_prediction" type="arm_track_hand.py" name="arm_track_hand" output="screen"/>
+
+	
+</launch>

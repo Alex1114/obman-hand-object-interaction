@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+
+	<node pkg="obman_prediction" type="grip_algorithm.py" name="grip_algorithm" output="screen"/>
+</launch>

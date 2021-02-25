@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<launch>
+  <node pkg="obman_prediction" type="pose_estimation.py" name="pose_estimation" output="screen"/>
+  <node pkg="tf" type="static_transform_publisher" name="calibrate_link" args="-0.052426 -0.091683 0.575936 -0.011307 0.186366 0.033160 0.981856 vx300s/base_link camera_link 100" />
+
+</launch>

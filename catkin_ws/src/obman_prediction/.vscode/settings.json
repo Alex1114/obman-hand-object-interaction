@@ -1,0 +1,6 @@
+{
+    "ros.distro": "noetic",
+    "python.autoComplete.extraPaths": [
+        "/home/alex/mm-medical/catkin_ws/devel/lib/python3/dist-packages"
+    ]
+}
