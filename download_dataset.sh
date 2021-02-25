@@ -14,6 +14,6 @@ sudo unzip obman.zip
 
 echo -e "\e[93m Download ShapeNetCore.v2 \e[0m"
 cd $cwd/datasymlinks
-sudo gdown --id 1hh3n9SUB_Gp99ECUJ9Db3zVfnbOBQ7ux
+# sudo gdown --id 1hh3n9SUB_Gp99ECUJ9Db3zVfnbOBQ7ux
 
 cd $cwd

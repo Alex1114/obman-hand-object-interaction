@@ -62,8 +62,7 @@ Using Pytorch 1.1.0
 ```python3
 $ python3 traineval.py --atlas_predict_trans --atlas_predict_scale --atlas_mesh --mano_use_shape --mano_use_pca --freeze_batchnorm --atlas_separate_encoder
 ```       
-<img src="readme_assets/images/training/img_000500.png" width="45%">
-<img src="readme_assets/images/training/img_001600.png" width="45%">  
+<img src="readme_assets/images/training/img_000500.png" width="100%">
 
 # Validation
   
