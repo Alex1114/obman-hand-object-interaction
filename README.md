@@ -60,9 +60,11 @@ obman_train/
 ## Start Training
 Using Pytorch 1.1.0
 ```python3
-$ python3 traineval.py --atlas_predict_trans --atlas_predict_scale --atlas_mesh --mano_use_shape --mano_use_pca --freeze_batchnorm --atlas_separate_encoder
-```       
+$ sudo python3 traineval.py --atlas_predict_trans --atlas_predict_scale --atlas_mesh --mano_use_shape --mano_use_pca --freeze_batchnorm --atlas_separate_encoder
+```
+<img src="readme_assets/images/training/training.png" width="100%">       
 <img src="readme_assets/images/training/img_000500.png" width="100%">
+
 
 # Validation
   
@@ -84,8 +86,8 @@ In this demo, both the original and flipped inputs are fed, and the outputs are 
 
 Running the demo should produce the following outputs.
 
-<img src="readme_assets/images/origin/can_in.png" width="20%">
-<img src="readme_assets/images/origin/can_output.png" width="20%">
+<img src="readme_assets/images/origin/can_in.png" width="30%">
+<img src="readme_assets/images/origin/can_output.png" width="30%">
 
 You can also run this demo on data from the [First Hand Action Benchmark](https://github.com/guiggh/hand_pose_action)
 
@@ -93,8 +95,8 @@ You can also run this demo on data from the [First Hand Action Benchmark](https:
 python3 image_demo.py --image_path readme_assets/images/fhb_liquid_soap.jpeg --resume release_models/fhb/checkpoint.pth.tar
 ```
 
-<img src="readme_assets/images/origin/fhb_liq_soap_in.png" width="20%">
-<img src="readme_assets/images/origin/fhb_liq_soap_out.png" width="20%">
+<img src="readme_assets/images/origin/fhb_liq_soap_in.png" width="30%">
+<img src="readme_assets/images/origin/fhb_liq_soap_out.png" width="30%">
 
 Note that the model trained on First Hand Action Benchmark strongly overfits to this dataset, and therefore performs poorly on 'in the wild' images.
 
