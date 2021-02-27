@@ -67,6 +67,16 @@ $ sudo python3 traineval.py --atlas_predict_trans --atlas_predict_scale --atlas_
 
 
 # Validation
+```bash
+$ jupyter notebook
+```  
+  
+Run Jupyter notebook and open "validation.ipynb".
+<img src="readme_assets/images/validation.png" width="100%">
+<img src="readme_assets/images/predict/color_110.jpg" width="30%">
+<img src="readme_assets/images/pose_estimation/color_110.png" width="30%">
+
+
   
 # Run on Real Robot
   
