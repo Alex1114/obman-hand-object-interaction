@@ -45,8 +45,7 @@ class get_orientation(object):
 		gs_frame = cv2.GaussianBlur(cv_image, (5, 5), 0)                   
 		hsv = cv2.cvtColor(gs_frame, cv2.COLOR_BGR2HSV)                 
 		erode_hsv = cv2.erode(hsv, None, iterations=2)                 
-		# inRange_hsv = cv2.inRange(erode_hsv, np.array([26, 43, 46]), np.array([34, 255, 255]))
-		inRange_hsv = cv2.inRange(erode_hsv, np.array([100, 80, 46]), np.array([124, 255, 255]))
+		inRange_hsv = cv2.inRange(erode_hsv, np.array([100, 43, 46]), np.array([119, 255, 255]))
 
 		cnts = cv2.findContours(inRange_hsv.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
 		c = max(cnts, key=cv2.contourArea)
